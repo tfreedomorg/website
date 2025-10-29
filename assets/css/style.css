@@ -65,9 +65,9 @@ body {background:linear-gradient(to bottom, #e2e2e2, #ffffff); font-family:Verda
 #featured a {color:#fff; text-decoration:underline!important;}
 #featured .ftwrap {padding:0 0 0 35px;}
 .ftwrap .ftimg {float:left; background-color:#ffffff; width:214px; height:138px; padding:10px 0 0 10px; box-shadow:0 0 5px rgba(0,0,0,0.5); transform:rotate(-5deg)}
-.ftwrap .fttxt {margin-left:240px; padding-top:30px; padding-right:65px}
+.ftwrap .fttxt {margin-left:240px; padding-top:25px; padding-right:65px}
 
-.mainheading, #leftcontainer h2 {font:bold 1.8em "Trebuchet MS", Arial, Helvetica, sans-serif; color:#666; padding:10px 0; border-bottom:solid 1px #ddd; margin-bottom:15px;}
+.mainheading, #leftcontainer h2 {font:bold 2em "Trebuchet MS", Arial, Helvetica, sans-serif; color:#666; padding:10px 0 5px 0; border-bottom:solid 1px #ddd; margin-bottom:10px;}
 #leftcontainer {padding: 0 10px;}
 .post p {font-size:1.2em; line-height:18px; margin-bottom:10px;}
 .post header {margin-bottom:10px;}
