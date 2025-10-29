@@ -1,0 +1,12 @@
+markdown: kramdown
+title: tfreedom.org
+email: contact@tfreedom.org
+description: "Total Freedom (tfreedom.org) is a Minecraft server where every player can use creative-mode features and commands."
+version: 1.1.0
+baseurl: ""
+url: "https://tfreedom.org"
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'

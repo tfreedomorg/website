@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+	<body marginwidth="0" marginheight="0">
+		{% include header.html %}
+		<div id="bodywrap">
+			{% include pageheader.html %}
+			<div id="contents">
+				<!-- Start of content -->
+				{{ contents }}
+				<!-- End of content -->
+				{% include sidebar.html %}
+				<div class="clear"></div>
+				</div></div>
+			</div>
+		</div>
+		{% include footer.html %}
+	</body>
+</html>
