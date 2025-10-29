@@ -55,7 +55,7 @@ body {background:linear-gradient(to bottom, #e2e2e2, #ffffff); font-family:Verda
 #contents {padding:18px 20px; background:url(/web/20130629055432im_/http://dl.dropboxusercontent.com/u/21145471/TFNewWebsite/assets/images/sidebarbg.jpg) 649px 0 repeat-y; min-height:200px;}
 #main {width:615px; float:left;}
 #sidebar {float:right; width:310px; padding-top:5px;}
-#featured {background:url(/web/20130629055432im_/http://dl.dropboxusercontent.com/u/21145471/TFNewWebsite/assets/images/featureheaderbg.png) 0 0 no-repeat; height:247px; margin-bottom:10px; position:relative; color:#eee;}
+#featured {background-color:#aaa; border-top-left-radius:8px; border-bottom-left-radius:8px; height:247px; margin-bottom:10px; position:relative; color:#eee;}
 #normalheader {background: url(/web/20130629055432im_/http://dl.dropboxusercontent.com/u/21145471/TFNewWebsite/assets/images/normalheader2.jpg) 0 0 no-repeat; height:150px; margin-bottom:10px;}
 #normalheader.header2 {background:url(/web/20130629055432im_/http://dl.dropboxusercontent.com/u/21145471/TFNewWebsite/assets/images/normalheader.jpg) no-repeat;}
 #featured p {font-size:1.2em; line-height:18px; font-weight:normal;}
@@ -63,7 +63,7 @@ body {background:linear-gradient(to bottom, #e2e2e2, #ffffff); font-family:Verda
 #featured h3 {display:block; font:bold 1.8em Arial, Helvetica, sans-serif; color:#fff; margin-bottom:10px;}
 #featured a {color:#fff; text-decoration:underline!important;}
 #featured .ftwrap {padding:45px 35px 0 35px;}
-.ftwrap .ftimg {float:left; background:url(/web/20130629055432im_/http://dl.dropboxusercontent.com/u/21145471/TFNewWebsite/assets/images/imgthumb.png) no-repeat; width:220px; height:144px;  padding:13px 0 0 13px;}
+.ftwrap .ftimg {float:left; background-color:#ffffff; width:214px; height:138px; padding:10px 0 0 10px; box-shadow:0 0 5px rgba(0,0,0,0.5)}
 .ftwrap .fttxt { margin-left:260px; padding-top:15px; padding-right:25px;}
 
 .mainheading, #leftcontainer h2 {font:bold 1.8em "Trebuchet MS", Arial, Helvetica, sans-serif; color:#666; padding:10px 0; border-bottom:solid 1px #ddd; margin-bottom:15px;}
