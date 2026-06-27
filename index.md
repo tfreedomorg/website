@@ -14,8 +14,9 @@ permalink: /
 				<p>Welcome to the Total Freedom Minecraft Server Information Website!
 				The server is currently located at <b>play.tfreedom.org</b>.</p>
 				<br/>
-				<p><a href="/discord/" target="_blank">Discord server »</a><br/>
-				<a href="/pmc/" target="_blank">PlanetMinecraft listing »</a></p>
+				<p><a href="/forums/" target="_blank">Community forums »</a><br/>
+				<a href="/discord/" target="_blank" class="external">Discord server</a><br/>
+				<a href="/pmc/" target="_blank" class="external">PlanetMinecraft listing</a></p>
 			</div>
 		</div>
 	</section>

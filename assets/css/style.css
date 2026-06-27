@@ -36,6 +36,28 @@ abbr[title], dfn[title] {
 h1, h2, h3 {font-family:Arial, Helvetica, sans-serif; }
 ul {list-style:none;}
 a {color:#1496d9; text-decoration:none;}
+a.external:after,
+a[href^="http"]:after, a[href^="https"]:after {
+    content: '';
+    height: 10px;
+    width: 10px;
+    margin-left: 3px;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCA5Ljk1IDkuOTgnPjxwYXRoIGZpbGw9JyMwMGYnIGQ9J005LjQ1IDBoLTMuOWwuODYuODcgMi42OCAyLjY4Ljg2Ljg3VjBoLS41eicgc3R5bGU9J2ZpbGw6I2ZmZmZmZjtmaWxsLW9wYWNpdHk6MScvPjxwYXRoIGZpbGw9J25vbmUnIHN0cm9rZT0nIzAwZicgc3Ryb2tlLWxpbmVjYXA9J3NxdWFyZScgZD0nTTE2LjcxLS42OGgtMy4wN3Y3LjUyaDcuNDhWMy44N20tNC44Ni4zNCA1LjQ2LTUuNDYnIHN0eWxlPSdzdHJva2U6I2ZmZmZmZjtzdHJva2Utb3BhY2l0eToxJyB0cmFuc2Zvcm09J21hdHJpeCgxLjA3NSAwIDAgMS4wNzQgLTE0LjE2IDIuMTUpJy8+PC9zdmc+') no-repeat center;
+    background-size: contain;
+    display: inline-block;
+    -webkit-filter: drop-shadow(0 1px 0 #fff);
+    filter: drop-shadow(0 1px 0 #fff)
+}
+a.external:hover:after,
+a[href^="http"]:hover:after, a[href^="https"]:hover:after {
+    -webkit-filter: saturate(0) drop-shadow(0 1px 0 #fff);
+    filter: saturate(0) drop-shadow(0 1px 0 #fff)
+}
+a.external:active:after,
+a[href^="http"]:active:after, a[href^="https"]:active:after {
+    -webkit-filter: saturate(0) contrast(25%) drop-shadow(0 1px 0 #fff);
+    filter: saturate(0) contrast(25%) drop-shadow(0 1px 0 #fff)
+}
 body {background:linear-gradient(to bottom, #e2e2e2, #ffffff); font-family:Verdana, Geneva, sans-serif; font-size:62.5%; color:#444;}
 #bodywrap {width:1000px; margin:0 auto; background-color:#ffffff; min-height:400px; border-top-left-radius:20px; border-top-right-radius:20px; box-shadow:0px -1px 5px #cccccc}
 #header {height:30px; background:linear-gradient(to bottom,#474747,#323232); box-shadow:0 1px 0 #ffffff}
@@ -46,7 +68,7 @@ body {background:linear-gradient(to bottom, #e2e2e2, #ffffff); font-family:Verda
 #sitenav li {display:inline; font-size:1.1em;}
 #sitenav li a {display:block; float:left; height:33px; line-height:30px; padding:0 25px;}
 #sitenav li a:hover {color:#fff!important;}
-#sitenav li.current a {background:url(/assets/img/activemenu.png) center bottom 3px no-repeat; color:#fff!important;}
+#sitenav li.current a {color:#fff!important;}
 #sitenav li.current a::after {content:'';height:5px;width:10px;clip-path:polygon(50% 0%, 0% 100%, 100% 100%);-webkit-clip-path:polygon(50% 0%, 0% 100%, 100% 100%);margin:-5px auto 0 auto;background:#fff;display:block}
 #pageheader {padding:20px 0; text-align:center}
 #pageheader img {height:80px; filter:drop-shadow(0 1px 0 #fff)}

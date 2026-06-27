@@ -1,3 +1,4 @@
+{% assign active = page.url | downcase | split: '/' %}
 <div id="header">
 	<section id="pagetop">
 		<p id="siteinfo">
@@ -20,8 +21,8 @@
 			</script>
 		</p>
 		<nav id="sitenav"><ul>
-			<li class="current"><a href="index.html">Info &amp; Rules</a></li>
-			<li><a href="news.html">News &amp; Updates</a></li>
+			<li {% if active[1] = null %}class='current'{% endif %}><a href="/">Homepage</a></li>
+			<li {% if active[1] == 'rules' %}class='current'{% endif %}><a href="/rules">Conduct Policy</a></li>
 		</ul></nav>	
 	</section>
 </div>
